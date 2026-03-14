@@ -1,0 +1,49 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 60px;
+}
+
+.hero-text {
+  max-width: 520px;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.hero-text h1 span {
+  color: #2563eb;
+}
+
+.hero-text p {
+  margin: 20px 0;
+  color: #4b5563;
+  font-size: 18px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.primary-btn {
+  background: #2563eb;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+}
+
+.secondary-btn {
+  border: 1px solid #9ca3af;
+  padding: 12px 24px;
+  border-radius: 6px;
+  color: #374151;
+}
+
+.hero-image img {
+  width: 420px;
+}
